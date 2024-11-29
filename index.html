@@ -6,9 +6,10 @@
 <title>banqup.io for Sale</title>  
 <style>  
   @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /* Import Pacifico font */  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Import Roboto font */  
   
   body {  
-    font-family: 'Arial', sans-serif;  
+    font-family: 'Roboto', sans-serif;  
     display: flex;  
     flex-direction: column;  
     align-items: center;  
@@ -18,49 +19,69 @@
     background-size: cover;  
     background-repeat: no-repeat;  
     margin: 0;  
-    text-align: center; /* Center text within the body */  
+    text-align: center;  
   }  
   
   .container {  
     background-color: rgba(255, 255, 255, 0.8);  
-    padding: 60px 80px; /* Increased padding */  
+    padding: 60px 80px;  
     border-radius: 10px;  
-    max-width: 800px; /* Increased width */  
+    max-width: 800px;  
   }  
   
   h1 {  
     color: #222;  
-    font-size: 4em; /* Larger font size */  
-    font-family: 'Pacifico', cursive; /* Use Pacifico font */  
+    font-size: 4em;  
+    font-family: 'Pacifico', cursive;  
     margin-bottom: 10px;  
   }  
   
   .price {  
-    font-size: 3em; /* Larger price */  
+    font-size: 3em;  
     margin-bottom: 20px;  
   }  
   
   button {  
-    background-color: #FFC107; /* Yellow button */  
-    color: #222; /* Dark text color */  
+    background-color: #2196F3; /* Blue button */  
+    color: #fff;  
     border: none;  
-    padding: 15px 30px; /* Larger button */  
-    border-radius: 5px; /* Less rounded corners */  
+    padding: 15px 30px;  
+    border-radius: 5px;  
     cursor: pointer;  
     font-size: 1.2em;  
+    font-weight: bold; /* Bold font */  
     transition: background-color 0.3s ease;  
   }  
   
   button:hover {  
-    background-color: #FFA000; /* Slightly darker yellow */  
+    background-color: #1976D2; /* Darker blue */  
+  }  
+  
+  .contact-info {  
+    margin-top: 30px;  
+  }  
+  
+  .contact-info p {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    margin-bottom: 10px;  
+  }  
+  
+  .contact-info i {  
+    margin-right: 10px;  
   }  
 </style>  
 </head>  
 <body>  
 <div class="container">  
-  <h1>Domain for sale</h1> 
-  <div class="price">banqup.io</div> 
+  <h1>Domain for sale</h1>  
+  <div class="price">banqup.io</div>  
   <button onclick="window.location.href='mailto:admin@banqup.io'">Contact Me</button>  
+  <div class="contact-info">  
+    <p><i class="fas fa-envelope"></i> admin@banqup.io</p>  
+    <p><i class="fas fa-phone"></i> +48 607 140 525</p>  
+  </div>  
 </div>  
-</body>  
+<script src="https://kit.fontawesome.com/a076d05399.js"></script> </body>  
 </html>
